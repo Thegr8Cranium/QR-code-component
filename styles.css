@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: Outfit, sans-serif;
@@ -12,38 +13,37 @@ body {
 }
 
 .container {
+    max-width: 360px;
+    margin: 0 auto;
+}
+.card {
     background-color: hsl(0, 0%, 100%);
     padding: 18px;
     border-radius: 17px;
     text-align: center;
     margin: 0 1em;
-    max-width: 360px;
-    margin: 0 auto;
-    
-}
-
 h1 {
     margin-bottom: 10px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
 }
-
 p {
     color: hsl(220, 15%, 55%);
     padding: 18px 15px;
     font-weight: 400;
 }
 
-.container img {
-    width: 360px;
-    margin: 0 auto;
-    border-radius: 10px;
+.card img {
+    width: 100%;
+    border-radius: 12px;
 }
 
 .attribution {
     text-align: center;
 }
-
+.text {
+    padding: 18px 15px;
+}
 @media screen and (min-width: 480px){
     max-width: 100%;
 }
