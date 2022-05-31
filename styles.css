@@ -13,11 +13,11 @@ body {
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    width: 400px;
+   /* width: 400px;
     text-align: center;
     margin: 0 auto;
     padding: 20px 10px;
-    border-radius: 15px;
+    border-radius: 15px;*/
 }
 
 h2 {
